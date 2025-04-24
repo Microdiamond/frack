@@ -1,0 +1,113 @@
+{
+  "name": "Rack 1",
+  "devices": [
+    {
+      "name": "patch chanel fiber1",
+      "x": 20,
+      "y": 40,
+      "w": 160,
+      "h": 15,
+      "desc": "ถาดไฟเบอร์1",
+      "imgSrc": "/images/racka4/pcfiber1.png"
+    },
+    {
+      "name": "patch chanel fiber2",
+      "x": 20,
+      "y": 60,
+      "w": 160,
+      "h": 25,
+      "desc": "ถาดไฟเบอร์2",
+      "imgSrc": "/images/racka4/pcfiber2.png"
+    },
+    {
+      "name": "patch chanel fiber3",
+      "x": 20,
+      "y": 85,
+      "w": 160,
+      "h": 25,
+      "desc": "ถาดไฟเบอร์3",
+      "imgSrc": "/images/racka4/pcfiber3.png"
+    },
+    {
+      "name": "patch chanel fiber4",
+      "x": 20,
+      "y": 110,
+      "w": 160,
+      "h": 25,
+      "desc": "ถาดไฟเบอร์4",
+      "imgSrc": "/images/racka4/pcfiber4.png"
+    },
+    {
+      "name": "patch chanel fiber5",
+      "x": 20,
+      "y": 135,
+      "w": 160,
+      "h": 25,
+      "desc": "ถาดไฟเบอร์5",
+      "imgSrc": "/images/racka4/pcfiber5.png"
+    },
+    {
+      "name": "Thuppaya switch",
+      "x": 20,
+      "y": 160,
+      "w": 160,
+      "h": 35,
+      "desc": "อุปกรณ์เครือข่าย ยี่ห้อ CISCO รุ่น Catalyst 3750G และ อุปกรณ์เครือข่าย ยี่ห้อ CISCO รุ่น Catalyst 2950 ",
+      "imgSrc": "/images/racka4/tpyswitch.png"
+    },
+    {
+      "name": "Data Base Server .11",
+      "x": 20,
+      "y": 195,
+      "w": 160,
+      "h": 50,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ ADVANTECH เลขครุภัณฑ์ 416-56-4054",
+      "imgSrc": "/images/racka4/dbs11.png"
+    },
+    {
+      "name": "ASR-920-24SZ-IM",
+      "x": 20,
+      "y": 245,
+      "w": 160,
+      "h": 25,
+      "desc": "อุปกรณ์เครือข่าย ยี่ห้อ CISCO รุ่น ASR-920-24SZ-IM",
+      "imgSrc": "/images/racka4/asr1.png"
+    },
+    {
+      "name": "ASR-920-24SZ-IM 2",
+      "x": 20,
+      "y": 270,
+      "w": 160,
+      "h": 25,
+      "desc": "อุปกรณ์เครือข่าย ยี่ห้อ CISCO รุ่น ASR-920-24SZ-IM",
+      "imgSrc": "/images/racka4/asr2.png"
+    },
+    {
+      "name": "BDCOM-2210",
+      "x": 20,
+      "y": 310,
+      "w": 160,
+      "h": 15,
+      "desc": "อุปกรณ์เครือข่าย ยี่ห้อ BDCOM รุ่น S2210",
+      "imgSrc": "/images/racka4/bdcom.png"
+    },
+    {
+      "name": "WS-C4900M",
+      "x": 20,
+      "y": 325,
+      "w": 160,
+      "h": 30,
+      "desc": "อุปกรณ์เครือข่าย ยี่ห้อ CISCO รุ่น WS-C4900M",
+      "imgSrc": "/images/racka4/wsc.png"
+    },
+    {
+      "name": "Core Cisco 4510R",
+      "x": 20,
+      "y": 400,
+      "w": 160,
+      "h": 220,
+      "desc": "อุปกรณ์เครือข่าย ยี่ห้อ CISCO รุ่น WS-C4900M",
+      "imgSrc": "/images/racka4/ccisco.png"
+    }
+  ]
+}

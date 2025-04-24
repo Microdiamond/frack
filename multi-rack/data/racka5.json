@@ -1,0 +1,104 @@
+{
+  "name": "Rack 1",
+  "devices": [
+    {
+      "name": "patch chanel fiber",
+      "x": 20,
+      "y": 40,
+      "w": 160,
+      "h": 15,
+      "desc": "ถาดไฟเบอร์",
+      "imgSrc": "/images/racka5/pcf.png"
+    },
+    {
+      "name": "Dell EMC S5212F-ON",
+      "x": 20,
+      "y": 75,
+      "w": 160,
+      "h": 15,
+      "desc": "อุปกรณ์เครือข่าย ยี่ห้อ Dell รุ่น S5212F-ON",
+      "imgSrc": "/images/racka5/demc.png"
+    },
+    {
+      "name": "Dell PowerEdge R650",
+      "x": 20,
+      "y": 100,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R650 vSAN Ready SVT/SN 76W5V44",
+      "imgSrc": "/images/racka5/dpe.png"
+    },
+    {
+      "name": "Dell PowerEdge R650 2",
+      "x": 20,
+      "y": 115,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R650 vSAN Ready SVT/SN 76W5V44",
+      "imgSrc": "/images/racka5/dpe2.png"
+    },
+    {
+      "name": "Dell PowerEdge R650 3",
+      "x": 20,
+      "y": 130,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R650 vSAN Ready SVT/SN 76W5V44",
+      "imgSrc": "/images/racka5/dpe3.png"
+    },
+    {
+      "name": "Dell PowerEdge R650 4",
+      "x": 20,
+      "y": 145,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R650 vSAN Ready SVT/SN 76W5V44",
+      "imgSrc": "/images/racka5/dpe4.png"
+    },
+    {
+      "name": "Wireless Controller Dell w-7205",
+      "x": 20,
+      "y": 330,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R650 vSAN Ready SVT/SN 76W5V44",
+      "imgSrc": "/images/racka5/wcd.png"
+    },
+    {
+      "name": "Dell N3024F Switch",
+      "x": 20,
+      "y": 360,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R650 vSAN Ready SVT/SN 76W5V44",
+      "imgSrc": "/images/racka5/dns.png"
+    },
+    {
+      "name": "PowerConnect W-3600",
+      "x": 20,
+      "y": 390,
+      "w": 160,
+      "h": 20,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R650 vSAN Ready SVT/SN 76W5V44",
+      "imgSrc": "/images/racka5/pcw1.png"
+    },
+    {
+      "name": "PowerConnect W-3600",
+      "x": 20,
+      "y": 410,
+      "w": 160,
+      "h": 20,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R650 vSAN Ready SVT/SN 76W5V44",
+      "imgSrc": "/images/racka5/pcw1.png"
+    },
+    {
+      "name": "Alcatel Core Switch",
+      "x": 20,
+      "y": 430,
+      "w": 160,
+      "h": 200,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R650 vSAN Ready SVT/SN 76W5V44",
+      "imgSrc": "/images/racka5/acs.png"
+    }
+  ]
+}

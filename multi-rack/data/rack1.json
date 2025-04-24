@@ -1,0 +1,95 @@
+{
+  "name": "Rack 1",
+  "devices": [
+    {
+      "name": "Dell PowerEdge R410",
+      "x": 20,
+      "y": 50,
+      "w": 160,
+      "h": 18,
+      "desc": "เครื่องคอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R410",
+      "imgSrc": "/images/fpt60z5n1.png"
+    },
+    {
+      "name": "FiberHome Fengine S4800",
+      "x": 20,
+      "y": 90,
+      "w": 160,
+      "h": 20,
+      "desc": "อุปกรณ์เครือข่าย ยี่ห้อ FiberHome รุ่น Fengine S4800",
+      "imgSrc": "/images/xb0lvb7g.png"
+    },
+    {
+      "name": "Fortinet 600F:Firewall",
+      "x": 20,
+      "y": 140,
+      "w": 160,
+      "h": 16,
+      "desc": "อุปกรณ์เครือข่าย ยี่ห้อ Fortinet รุ่น 600F",
+      "imgSrc": "/images/messageImage_1744172486039.png"
+    },
+    {
+      "name": "Fortinet 600F:Firewall",
+      "x": 20,
+      "y": 155,
+      "w": 160,
+      "h": 16,
+      "desc": "อุปกรณ์เครือข่าย ยี่ห้อ Fortinet รุ่น 600F",
+      "imgSrc": "/images/messageImage_1744172490880.png"
+    },
+    {
+      "name": "Fortinet FortiAnalyzer 300G",
+      "x": 20,
+      "y": 200,
+      "w": 160,
+      "h": 20,
+      "desc": "อุปกรณ์เครือข่าย ยี่ห้อ Fortinet รุ่น FortiAnalyzer 300G",
+      "imgSrc": "/images/messageImage_1744172497692.png"
+    },
+    {
+      "name": "Dell N3024F : Switch",
+      "x": 20,
+      "y": 235,
+      "w": 160,
+      "h": 18,
+      "desc": "อุปกรณ์เครือข่าย ยี่ห้อ Dell รุ่น N3024F",
+      "imgSrc": "/images/xxzqjoj6.png"
+    },
+    {
+        "name": "Softnix Logger Hp Proliant DL20",
+        "x": 20,
+        "y": 250,
+        "w": 160,
+        "h": 18,
+        "desc": "เครื่องคอมพิวเตอร์แม่ข่าย ยี่ห้อ HP รุ่น Proliant DL20",
+        "imgSrc": "/images/messageImage_1744172502121.png"
+      },
+    {
+      "name": "Dell C9000: Core Switch",
+      "x": 20,
+      "y": 267,
+      "w": 160,
+      "h": 120,
+      "desc": "อุปกรณ์เครือข่าย ยี่ห้อ Dell รุ่น C9000 SVT/SN CP8RG02 หลายเลขครุภัณฑ์ 571-61-5679",
+      "imgSrc": "/images/messageImage_1744172518430.png"
+    },
+    {
+      "name": "Dell PowerEdge M1000E : Sever VM WARE",
+      "x": 20,
+      "y": 410,
+      "w": 160,
+      "h": 120,
+      "desc": "เครื่องคอมพิวเตอร์แม่ข่าย ยี่ห้อ Deell รุ่น PowerEdge M1000E SVT/SN G8H91H2 หมายเลขครุภัณฑ์ 571-61-5720",
+      "imgSrc": "/images/messageImage_1744172522141.png"
+    },
+    {
+      "name": "FPT60Z5N1-07",
+      "x": 20,
+      "y": 550,
+      "w": 160,
+      "h": 50,
+      "desc": "Router Unit 7",
+      "imgSrc": "/images/messageImage_1744172527383.png"
+    }
+  ]
+}
