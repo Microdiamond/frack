@@ -108,6 +108,33 @@
       "h": 32,
       "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น MD3820f หมายเลขครุภัณฑ์ 416-56-3874",
       "imgSrc": "/images/racka6/Dell MD3820f.png"
+    },
+    {
+      "name": "Dell MD360of",
+      "x": 20,
+      "y": 410,
+      "w": 160,
+      "h": 32,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น MD360of หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/racka6/Dell MD360of.png"
+    },
+    {
+      "name": "Dell EMC S5212F-ON",
+      "x": 20,
+      "y": 460,
+      "w": 160,
+      "h": 17,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น EMC S5212F-ON หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/racka6/Dell EMC S5212F-ON.png"
+    },
+    {
+      "name": "Dell PowerEdge R650",
+      "x": 20,
+      "y": 477,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น EMC S5212F-ON หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/racka6/Dell PowerEdge R650.png"
     }
   ]
 }
