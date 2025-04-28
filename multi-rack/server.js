@@ -39,6 +39,10 @@ app.get('/rackb1', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'rackb1.html'));
 });
 
+app.get('/rackb2', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'rackb2.html'));
+});
+
 // API endpoints for rack data
 app.get('/api/rack1/devices', (req, res) => {
     res.json(require('./data/rack1.json'));
@@ -67,6 +71,11 @@ app.get('/api/racka8/devices', (req, res) => {
 app.get('/api/rackb1/devices', (req, res) => {
     res.json(require('./data/rackb1.json'));
 });
+
+app.get('/api/rackb2/devices', (req, res) => {
+    res.json(require('./data/rackb2.json'));
+});
+
 
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);

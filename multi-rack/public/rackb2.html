@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Canvas Rack Animation</title>
+  <link rel="stylesheet" href="/css/rack-style.css">
+</head>
+<body>
+<div id="preload" style="display:none;">
+    <img id="emptyRack" src="/images/racka4/rack4.jpeg">
+</div>
+
+<div class="rack-container">
+    <canvas id="rackCanvas" width="200" height="650"></canvas>
+    <div class="device-labels" id="deviceLabels"></div>
+</div>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <h3 id="modal-title"></h3>
+    <p id="modal-description"></p>
+  </div>
+</div>
+
+<script>
+const canvas = document.getElementById("rackCanvas");
+const ctx = canvas.getContext("2d");
+
+function drawEmptyRack() {
+    const rackImg = document.getElementById("emptyRack");
+    ctx.drawImage(rackImg, 0, 0, canvas.width, canvas.height);
+}
+
+let devices = [];
+
+// เพิ่มตัวแปรเก็บอุปกรณ์ที่ถูกเลือก หลังประกาศ devices
+let selectedDevice = null;
+
+// เพิ่มฟังก์ชัน fetchDevices
+async function fetchDevices() {
+    try {
+        const response = await fetch('/api/rackb2/devices');
+        const data = await response.json();
+        devices = data.devices;
+        initCanvas();
+    } catch (error) {
+        console.error('Error loading devices:', error);
+    }
+}
+
+let animationProgress = 0;
+const animationSpeed = 0.07;
+
+function animateDevices() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    drawEmptyRack();
+    ctx.font = "14px sans-serif";
+    ctx.textBaseline = "middle";
+
+    devices.forEach((device, i) => {
+        const delay = i * 10;
+        let t = Math.min(1, (animationProgress - delay) * animationSpeed);
+        if (t <= 0) return;
+
+        const currentX = -device.w + t * (device.x + device.w);
+        
+        // โหลดรูปภาพอุปกรณ์
+        const deviceImg = new Image();
+        deviceImg.src = device.imgSrc;  // ลบ images ออก เพราะใน json มี /images/ อยู่แล้ว
+        
+        // วาดรูปภาพอุปกรณ์
+        ctx.drawImage(deviceImg, 
+            0,                     // ตัดจากซ้าย 20px
+            0,                      // เริ่มจากบน
+            deviceImg.width,   // ความกว้างที่จะใช้ (ตัดข้างละ 20px)
+            deviceImg.height,       // ความสูงเต็ม
+            currentX,              // ตำแหน่ง x ที่จะวาด
+            device.y,              // ตำแหน่ง y ที่จะวาด
+            device.w,              // ความกว้างที่จะวาด
+            device.h               // ความสูงที่จะวาด
+        );
+        
+        // เพิ่มการวาดกรอบถ้าอุปกรณ์นี้ถูกเลือก
+        if (selectedDevice && selectedDevice.name === device.name) {
+            ctx.strokeStyle = '#00ff00'; // สีเขียว
+            ctx.lineWidth = 2;
+            ctx.strokeRect(currentX, device.y, device.w, device.h);
+        }
+
+        device._currentX = currentX;
+    });
+
+    animationProgress++;
+    if (animationProgress < devices.length * 20) {
+        requestAnimationFrame(animateDevices);
+    }
+}
+
+// เพิ่มฟังก์ชันสำหรับอัพเดทป้ายชื่อ
+function updateDeviceLabels() {
+    const labelsContainer = document.getElementById('deviceLabels');
+    labelsContainer.innerHTML = '';
+
+    devices.forEach((device) => {
+        const label = document.createElement('div');
+        label.className = 'device-label';
+        label.textContent = device.name;
+        
+        // ใช้ค่า y จาก json โดยตรง และปรับ offset ให้ตรงกับความสูงของอุปกรณ์
+        label.style.position = 'absolute';
+        label.style.top = (device.y + (device.h / 2)) + 'px';
+        label.style.transform = 'translateY(-50%)'; // จัดให้อยู่กึ่งกลางตามแนวตั้ง
+
+        label.addEventListener('click', () => {
+            selectedDevice = device;
+            showModal(device.name, device.desc);
+            drawEmptyRack();
+            animateDevices();
+        });
+
+        labelsContainer.appendChild(label);
+    });
+}
+
+canvas.addEventListener("click", function(e) {
+  const rect = canvas.getBoundingClientRect();
+  const clickX = e.clientX - rect.left;
+  const clickY = e.clientY - rect.top;
+
+  const device = devices.find(d =>
+    clickX >= d._currentX && clickX <= d._currentX + d.w &&
+    clickY >= d.y && clickY <= d.y + d.h
+  );
+
+  if (device) {
+    selectedDevice = device; // เก็บอุปกรณ์ที่ถูกเลือก
+    showModal(device.name, device.desc);
+    // วาดใหม่เพื่อแสดงกรอบ
+    drawEmptyRack();
+    animateDevices();
+  }
+});
+
+function showModal(title, description) {
+  document.getElementById("modal-title").innerText = title;
+  document.getElementById("modal-description").innerText = description;
+  document.getElementById("modal").classList.add("active");
+}
+
+// แก้ไขฟังก์ชัน closeModal()
+function closeModal() {
+  document.getElementById("modal").classList.remove("active");
+  selectedDevice = null; // ล้างการเลือกเมื่อปิด modal
+  // วาดใหม่เพื่อลบกรอบ
+  drawEmptyRack();
+  animateDevices();
+}
+
+// เพิ่มหลัง function closeModal()
+document.querySelector('.modal').addEventListener('click', function(e) {
+    // ถ้าคลิกที่พื้นหลัง modal (ไม่ใช่ modal-content) ให้ปิด
+    if (e.target === this) {
+        closeModal();
+    }
+});
+
+function setupModal() {
+    const modal = document.querySelector('.modal');
+    const modalContent = document.querySelector('.modal-content');
+
+    // คลิกที่พื้นหลัง modal
+    modal.addEventListener('click', function(e) {
+        if (e.target === this) {
+            closeModal();
+        }
+    });
+
+    // ปิดด้วยปุ่ม ESC
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && modal.classList.contains('active')) {
+            closeModal();
+        }
+    });
+}
+
+// เรียกใช้ setupModal หลังจาก DOMContentLoaded
+document.addEventListener('DOMContentLoaded', setupModal);
+
+// แก้ไขฟังก์ชัน initCanvas
+function initCanvas() {
+    if (devices.length > 0) {
+        drawEmptyRack();
+        animateDevices();
+        updateDeviceLabels(); 
+    }
+}
+
+// เรียกใช้ fetchDevices เมื่อโหลดรูป rack เสร็จ
+document.getElementById("emptyRack").onload = fetchDevices;
+</script>
+
+</body>
+</html>

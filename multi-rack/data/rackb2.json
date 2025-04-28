@@ -1,0 +1,166 @@
+{
+  "name": "Rack 1",
+  "devices": [
+    {
+      "name": "nvr server 1",
+      "x": 20,
+      "y": 60,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/nvr server.png"
+    },{
+      "name": "nvr server 2",
+      "x": 20,
+      "y": 75,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/nvr server.png"
+    },{
+      "name": "storage black 1",
+      "x": 20,
+      "y": 90,
+      "w": 160,
+      "h": 30,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/storage black.png"
+    },{
+      "name": "storage black 2",
+      "x": 20,
+      "y": 120,
+      "w": 160,
+      "h": 30,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/storage black.png"
+    },{
+      "name": "switch",
+      "x": 20,
+      "y": 160,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/switch.png"
+    },{
+      "name": "time server",
+      "x": 20,
+      "y": 190,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/time server.png"
+    },{
+      "name": "storage black 3",
+      "x": 20,
+      "y": 205,
+      "w": 160,
+      "h": 30,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/storage black.png"
+    },{
+      "name": "nvr server 3",
+      "x": 20,
+      "y": 235,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/nvr server.png"
+    },{
+      "name": "storage black 4",
+      "x": 20,
+      "y": 250,
+      "w": 160,
+      "h": 30,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/storage black.png"
+    },{
+      "name": "nvr server 4",
+      "x": 20,
+      "y": 280,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/nvr server.png"
+    },{
+      "name": "storage black 5",
+      "x": 20,
+      "y": 295,
+      "w": 160,
+      "h": 30,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/storage black.png"
+    },{
+      "name": "storage",
+      "x": 20,
+      "y": 325,
+      "w": 160,
+      "h": 30,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/storage.png"
+    },{
+      "name": "teleste snr 302",
+      "x": 20,
+      "y": 355,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/teleste snr 302.png"
+    },{
+      "name": "teleste snr 302 (2)",
+      "x": 20,
+      "y": 370,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/teleste snr 302.png"
+    },{
+      "name": "qsan storage",
+      "x": 20,
+      "y": 400,
+      "w": 160,
+      "h": 30,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/qsan storage.png"
+    },{
+      "name": "qsan storage 2",
+      "x": 20,
+      "y": 430,
+      "w": 160,
+      "h": 30,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/qsan storage.png"
+    },{
+      "name": "qsan storage 3",
+      "x": 20,
+      "y": 460,
+      "w": 160,
+      "h": 30,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/qsan storage.png"
+    },{
+      "name": "qsan storage 4",
+      "x": 20,
+      "y": 490,
+      "w": 160,
+      "h": 30,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/qsan storage.png"
+    },{
+      "name": "switch CCTV ",
+      "x": 20,
+      "y": 550,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/switch.png"
+    },{
+      "name": "switch CCTV 2",
+      "x": 20,
+      "y": 585,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/switch.png"
+    }
+  ]
+}
