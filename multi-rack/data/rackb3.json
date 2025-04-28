@@ -1,0 +1,14 @@
+{
+  "name": "Rack 1",
+  "devices": [
+    {
+      "name": "nvr server 1",
+      "x": 20,
+      "y": 60,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb2/nvr server.png"
+    }
+  ]
+}
