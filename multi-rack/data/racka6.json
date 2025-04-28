@@ -135,6 +135,24 @@
       "h": 15,
       "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น EMC S5212F-ON หมายเลขครุภัณฑ์ 416-56-3874",
       "imgSrc": "/images/racka6/Dell PowerEdge R650.png"
+    },
+    {
+      "name": "Dell EMC PowerVAult ME4024",
+      "x": 20,
+      "y": 492,
+      "w": 160,
+      "h": 30,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น EMC S5212F-ON หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/racka6/Dell EMC PowerVAult ME4024.png"
+    },
+    {
+      "name": "Syndome UPS",
+      "x": 20,
+      "y": 522,
+      "w": 160,
+      "h": 110,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น EMC S5212F-ON หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/racka6/Syndome UPS.png"
     }
   ]
 }
