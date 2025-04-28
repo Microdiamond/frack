@@ -42,7 +42,7 @@ let selectedDevice = null;
 // เพิ่มฟังก์ชัน fetchDevices
 async function fetchDevices() {
     try {
-        const response = await fetch('/api/racka8/devices');
+        const response = await fetch('/api/rackb1/devices');
         const data = await response.json();
         devices = data.devices;
         initCanvas();

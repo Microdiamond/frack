@@ -2,77 +2,175 @@
   "name": "Rack 1",
   "devices": [
     {
-      "name": "Dell EMC PowerEdge T150",
+      "name": "Cisco SG200-50",
       "x": 20,
       "y": 40,
       "w": 160,
-      "h": 110,
+      "h": 15,
       "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
-      "imgSrc": "/images/racka8/Dell EMC PowerEdge T150.png"
-    },{
-      "name": "Dell powerEdge R410",
+      "imgSrc": "/images/rackb1/Cisco SG200-50.png"
+    },
+    {
+      "name": "patch panel",
       "x": 20,
-      "y": 200,
+      "y": 55,
       "w": 160,
       "h": 15,
       "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
-      "imgSrc": "/images/racka8/Dell powerEdge R410.png"
-    },{
-      "name": "Dell PowerEdge R320",
+      "imgSrc": "/images/rackb1/patch panel.png"
+    },
+    {
+      "name": "switch ip-phone",
       "x": 20,
-      "y": 220,
+      "y": 70,
+      "w": 160,
+      "h": 18,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb1/switch ip-phone.png"
+    },
+    {
+      "name": "microware เกาะล้าน",
+      "x": 20,
+      "y": 90,
       "w": 160,
       "h": 15,
       "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
-      "imgSrc": "/images/racka8/Dell PowerEdge R320.png"
-    },{
-      "name": "Huawei CloundEngine s5735-L24",
+      "imgSrc": "/images/rackb1/microware เกาะล้าน.png"
+    },
+    {
+      "name": "router เกาะล้าน",
       "x": 20,
-      "y": 260,
+      "y": 105,
       "w": 160,
       "h": 15,
       "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
-      "imgSrc": "/images/racka8/Huawei CloundEngine s5735-L24.png"
-    },{
-      "name": "Dell PowerValut MD1200",
+      "imgSrc": "/images/rackb1/router เกาะล้าน.png"
+    },
+    {
+      "name": "switch งานทะเบียนราษฎร์",
       "x": 20,
-      "y": 290,
+      "y": 120,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb1/switch งานทะเบียนราษฎร์.png"
+    },
+    {
+      "name": "unknow",
+      "x": 20,
+      "y": 145,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb1/unknow.png"
+    },
+    {
+      "name": "telephone gateway",
+      "x": 20,
+      "y": 160,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb1/telephone gateway.png"
+    },
+    {
+      "name": "telephone gateway 2",
+      "x": 20,
+      "y": 175,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb1/telephone gateway.png"
+    },
+    {
+      "name": "telephone gateway 3",
+      "x": 20,
+      "y": 190,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb1/telephone gateway.png"
+    },
+    {
+      "name": "kvm switch",
+      "x": 20,
+      "y": 250,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb1/kvm switch.png"
+    },
+    {
+      "name": "dell powerEdge R420",
+      "x": 20,
+      "y": 280,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb1/dell powerEdge R420.png"
+    },
+    {
+      "name": "dell powerEdge R420 (2)",
+      "x": 20,
+      "y": 305,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb1/dell powerEdge R420.png"
+    },
+    {
+      "name": "dell powerEdge R420 (3)",
+      "x": 20,
+      "y": 335,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb1/dell powerEdge R420.png"
+    },
+    {
+      "name": "switch ip-phone 2",
+      "x": 20,
+      "y": 370,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb1/switch ip-phone.png"
+    },
+    {
+      "name": "server ip phone",
+      "x": 20,
+      "y": 385,
       "w": 160,
       "h": 30,
       "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
-      "imgSrc": "/images/racka8/Dell PowerValut MD1200.png"
-    },{
-      "name": "Dell PowerEdge R720",
+      "imgSrc": "/images/rackb1/server ip phone.png"
+    },
+    {
+      "name": "server ip phone 2",
       "x": 20,
-      "y": 320,
+      "y": 415,
       "w": 160,
       "h": 30,
       "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
-      "imgSrc": "/images/racka8/Dell PowerEdge R720.png"
-    },{
-      "name": "Dell PowerEdge R720 (2)",
+      "imgSrc": "/images/rackb1/server ip phone 2.png"
+    },
+    {
+      "name": "storage",
       "x": 20,
-      "y": 350,
+      "y": 445,
       "w": 160,
       "h": 30,
       "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
-      "imgSrc": "/images/racka8/Dell PowerEdge R720.png"
-    },{
-      "name": "Dell PowerEdge R720 (3)",
+      "imgSrc": "/images/rackb1/storage.png"
+    },
+    {
+      "name": "ups",
       "x": 20,
-      "y": 420,
+      "y": 475,
       "w": 160,
-      "h": 30,
+      "h": 100,
       "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
-      "imgSrc": "/images/racka8/Dell PowerEdge R720.png"
-    },{
-      "name": "Dell PowerEdge R720 (4)",
-      "x": 20,
-      "y": 450,
-      "w": 160,
-      "h": 30,
-      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
-      "imgSrc": "/images/racka8/Dell PowerEdge R720.png"
+      "imgSrc": "/images/rackb1/ups.png"
     }
   ]
 }
