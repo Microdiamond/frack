@@ -2,13 +2,61 @@
   "name": "Rack 1",
   "devices": [
     {
-      "name": "nvr server 1",
+      "name": "Patch panel",
       "x": 20,
       "y": 60,
       "w": 160,
       "h": 15,
       "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
-      "imgSrc": "/images/rackb2/nvr server.png"
+      "imgSrc": "/images/rackb3/Patch panel.png"
+    },{
+      "name": "edgeRouter pro",
+      "x": 20,
+      "y": 90,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb3/edgeRouter pro.png"
+    },{
+      "name": "Lenovo X 3550 M5 (HR-System)",
+      "x": 20,
+      "y": 105,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb3/Lenovo X 3550 M5 (HR-System).png"
+    },{
+      "name": "Lenovo X 3550 M5 (HR-System) 2",
+      "x": 20,
+      "y": 140,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb3/Lenovo X 3550 M5 (HR-System).png"
+    },{
+      "name": "Dell PowerEdge R450 (ERP-System)",
+      "x": 20,
+      "y": 180,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb3/Dell PowerEdge R450 (ERP-System).png"
+    },{
+      "name": "Dell PowerEdge R450 (ERP-System) 2",
+      "x": 20,
+      "y": 195,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb3/Dell PowerEdge R450 (ERP-System).png"
+    },{
+      "name": "Monitor",
+      "x": 20,
+      "y": 230,
+      "w": 160,
+      "h": 100,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/rackb3/com.png"
     }
   ]
 }
