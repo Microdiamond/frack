@@ -27,6 +27,10 @@ app.get('/racka6', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'racka6.html'));
 });
 
+app.get('/racka7', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'racka7.html'));
+});
+
 // API endpoints for rack data
 app.get('/api/rack1/devices', (req, res) => {
     res.json(require('./data/rack1.json'));
@@ -42,6 +46,10 @@ app.get('/api/racka5/devices', (req, res) => {
 
 app.get('/api/racka6/devices', (req, res) => {
     res.json(require('./data/racka6.json'));
+});
+
+app.get('/api/racka7/devices', (req, res) => {
+    res.json(require('./data/racka7.json'));
 });
 
 app.listen(port, () => {

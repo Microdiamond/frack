@@ -1,0 +1,133 @@
+{
+  "name": "Rack 1",
+  "devices": [
+    {
+      "name": "Dell PowerEdge R720",
+      "x": 20,
+      "y": 40,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/racka7/cctv intranal switch.png"
+    },{
+      "name": "patch panel(GIS)",
+      "x": 20,
+      "y": 55,
+      "w": 160,
+      "h": 30,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/racka7/patch panel(GIS).png"
+    },{
+      "name": "switch(GIS)",
+      "x": 20,
+      "y": 85,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/racka7/switch(GIS).png"
+    },{
+      "name": "patch panel(GIS)2",
+      "x": 20,
+      "y": 115,
+      "w": 160,
+      "h": 15,
+      "desc": "คอมพิวเตอร์แม่ข่าย ยี่ห้อ Dell รุ่น PowerEdge R720 หมายเลขครุภัณฑ์ 416-56-3874",
+      "imgSrc": "/images/racka7/patch panel(GIS)2.png"
+    },{
+      "name": "",
+      "x": 20,
+      "y": 170,
+      "w": 160,
+      "h": 15,
+      "desc": "",
+      "imgSrc": "/images/racka7/pn39fhel.png"
+    },{
+      "name": "server(GIS)",
+      "x": 20,
+      "y": 185,
+      "w": 160,
+      "h": 35,
+      "desc": "",
+      "imgSrc": "/images/racka7/server(GIS).png"
+    },{
+      "name": "server(GIS)2",
+      "x": 20,
+      "y": 250,
+      "w": 160,
+      "h": 35,
+      "desc": "",
+      "imgSrc": "/images/racka7/server(GIS)2.png"
+    },{
+      "name": "monitor(NWM)",
+      "x": 20,
+      "y": 285,
+      "w": 160,
+      "h": 15,
+      "desc": "",
+      "imgSrc": "/images/racka7/monitor(NWM).png"
+    }
+    ,{
+      "name": "storage(GIS)",
+      "x": 20,
+      "y": 320,
+      "w": 160,
+      "h": 35,
+      "desc": "",
+      "imgSrc": "/images/racka7/storage(GIS).png"
+    }
+    ,{
+      "name": "storage(GIS)2",
+      "x": 20,
+      "y": 355,
+      "w": 160,
+      "h": 35,
+      "desc": "",
+      "imgSrc": "/images/racka7/storage(GIS)2.png"
+    }
+    ,{
+      "name": "server(GIS)3",
+      "x": 20,
+      "y": 390,
+      "w": 160,
+      "h": 15,
+      "desc": "",
+      "imgSrc": "/images/racka7/server(GIS)3.png"
+    }
+    ,{
+      "name": "server(GIS)4",
+      "x": 20,
+      "y": 405,
+      "w": 160,
+      "h": 15,
+      "desc": "",
+      "imgSrc": "/images/racka7/server(GIS)4.png"
+    }
+    ,{
+      "name": "storage(GIS)3",
+      "x": 20,
+      "y": 420,
+      "w": 160,
+      "h": 35,
+      "desc": "",
+      "imgSrc": "/images/racka7/storage(GIS)3.png"
+    }
+    ,{
+      "name": "server(GIS)5",
+      "x": 20,
+      "y": 455,
+      "w": 160,
+      "h": 15,
+      "desc": "",
+      "imgSrc": "/images/racka7/server(GIS)5.png"
+    }
+    ,{
+      "name": "ups(GIS)",
+      "x": 20,
+      "y": 520,
+      "w": 160,
+      "h": 80,
+      "desc": "",
+      "imgSrc": "/images/racka7/ups(GIS).png"
+    }
+  ]
+}
